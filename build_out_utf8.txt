@@ -1,0 +1,36 @@
+﻿
+> careerforge-ai@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+- Environments: .env
+
+  Creating an optimized production build ...
+Γ£ô Compiled successfully in 5.6s
+  Running TypeScript ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/10) ...
+  Generating static pages using 11 workers (2/10) 
+  Generating static pages using 11 workers (4/10) 
+  Generating static pages using 11 workers (7/10) 
+Γ£ô Generating static pages using 11 workers (10/10) in 287.1ms
+  Finalizing page optimization ...
+
+Route (app)
+Γöî ╞Æ /
+Γö£ ╞Æ /_not-found
+Γö£ ╞Æ /ai-cover-letter
+Γö£ ╞Æ /ai-cover-letter/[id]
+Γö£ ╞Æ /api/inngest
+Γö£ ╞Æ /dashboard
+Γö£ ╞Æ /interview
+Γö£ ╞Æ /interview/mock
+Γö£ ╞Æ /onboarding
+Γö£ ╞Æ /sign-in/[[...sign-in]]
+Γöö ╞Æ /sign-up/[[...sign-up]]
+
+
+╞Æ Proxy (Middleware)
+
+╞Æ  (Dynamic)  server-rendered on demand
+

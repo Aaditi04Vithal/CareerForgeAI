@@ -1,0 +1,118 @@
+﻿
+> careerforge-ai@0.1.0 build
+> next build
+
+Γû▓ Next.js 16.1.6 (Turbopack)
+- Environments: .env
+
+  Creating an optimized production build ...
+node.exe : 
+At line:1 char:1
++ & "C:\Program 
+Files\nodejs/node.exe" 
+"C:\Users\Aaditi\AppDat
+a\Roaming ...
++ ~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~
+~~
+    + CategoryInfo     
+         : NotSpecifi  
+  ed: (:String) [],    
+ RemoteException
+    + FullyQualifiedEr 
+   rorId : NativeComm  
+  andError
+ 
+> Build error occurred
+Error: Turbopack build 
+failed with 1 errors:
+./app/(main)/ai-cover-l
+etter/_components/cover
+-letter-preview.jsx:4:1
+Module not found: 
+Can't resolve 
+'@uiw/react-md-editor'
+[0m [90m 2 |[39m
+ [90m 3 |[39m 
+[36mimport[39m 
+[33mReact[39m 
+[36mfrom[39m [32m"re
+act"[39m[33m;[39m
+[31m[1m>[22m[39m[9
+0m 4 |[39m 
+[36mimport[39m 
+[33mMDEditor[39m 
+[36mfrom[39m [32m"@u
+iw/react-md-editor"[39
+m[33m;[39m
+ [90m   |[39m [31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[31
+m[1m^[22m[39m[31m[
+1m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[2
+2m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[39
+m[31m[1m^[22m[39m[
+31m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1
+m^[22m[39m[31m[1m^
+[22m[39m[31m[1m^[22
+m[39m[31m[1m^[22m[
+39m[31m[1m^[22m[39m
+[31m[1m^[22m[39m[3
+1m[1m^[22m[39m[31m
+[1m^[22m[39m[31m[1m
+^[22m[39m[31m[1m^[
+22m[39m[31m[1m^[22m
+[39m[31m[1m^[22m[3
+9m[31m[1m^[22m[39m
+ [90m 5 |[39m
+ [90m 6 |[39m 
+[36mconst[39m [33mCo
+verLetterPreview[39m 
+[33m=[39m ({ content 
+}) [33m=>[39m {
+ [90m 7 |[39m   
+[36mreturn[39m ([0m
+
+
+
+Import trace:
+  Server Component:
+    ./app/(main)/ai-cov
+er-letter/_components/c
+over-letter-preview.jsx
+    ./app/(main)/ai-cov
+er-letter/[id]/page.jsx
+
+https://nextjs.org/docs
+/messages/module-not-fo
+und
+
+
+    at <unknown> (./app
+/(main)/ai-cover-letter
+/_components/cover-lett
+er-preview.jsx:4:1)
+    at <unknown> (https
+://nextjs.org/docs/mess
+ages/module-not-found)
