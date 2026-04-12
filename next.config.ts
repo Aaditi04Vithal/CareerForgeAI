@@ -1,6 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig = {
+  serverExternalPackages: ["@prisma/client", "prisma"],
   /* config options here */
   images: {
     remotePatterns: [
