@@ -5,7 +5,10 @@ import { Button } from "@/components/ui/button";
 import CoverLetterList from "./_components/cover-letter-list";
 
 export default async function CoverLetterPage() {
-  const coverLetters = await getCoverLetters();
+  let coverLetters = await getCoverLetters();
+  
+  // Serialize Prisma Date objects to string to strictly prevent Server Component serialization errors on Vercel
+  coverLetters = JSON.parse(JSON.stringify(coverLetters));
 
   return (
     <div>
