@@ -15,6 +15,10 @@ import {
 import { toast } from "sonner";
 import dynamic from "next/dynamic";
 const MDEditor = dynamic(() => import("@uiw/react-md-editor"), { ssr: false });
+const MDEditorMarkdown = dynamic(
+  () => import("@uiw/react-md-editor").then((mod) => mod.default.Markdown),
+  { ssr: false }
+);
 import { Button } from "@/components/ui/button";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Textarea } from "@/components/ui/textarea";
@@ -459,7 +463,7 @@ export default function ResumeBuilder({ initialContent }) {
           </div>
           <div className="hidden">
             <div id="resume-pdf">
-              <MDEditor.Markdown
+              <MDEditorMarkdown
                 source={previewContent}
                 style={{
                   background: "white",
